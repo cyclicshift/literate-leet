@@ -1,10 +1,8 @@
 # Solution to LeetCode Problem: Two Sum
 # https://leetcode.com/problems/two-sum/
 
-from typing import List
-
 class Solution:
-    def twoSum(self, nums: List[int], target: int) -> List[int]:
+    def twoSum(self, nums: list[int], target: int) -> list[int]:
         mem = {}
         for i in range(0,len(nums)):
             second_num = target - nums[i]
